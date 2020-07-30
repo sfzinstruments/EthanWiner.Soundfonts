@@ -1,0 +1,79 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Cello Solo
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//midi cc
+#define $EXP 1
+#define $ATTACK 11
+#define $RELEASE 12
+#define $RANDOM 67
+#define $LEGATO 64
+#define $VELTRACK 99
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/cello_solo/
+
+label_cc$EXP=Exp
+label_cc$ATTACK=Attack
+label_cc$RELEASE=Release
+label_cc$RANDOM=Random
+label_cc$LEGATO=Legato
+label_cc$VELTRACK=Veltrack
+set_hdcc$EXP=1
+set_hdcc$RELEASE=0.15
+set_hdcc$VELTRACK=1
+
+//****************************************************
+<global>
+global_volume=-6
+off_time=0.2
+off_shape=0
+sustain_sw=off
+sostenuto_sw=off
+amplitude_oncc$EXP=100
+ampeg_attack_oncc$ATTACK=3
+ampeg_release_oncc$ATTACK=0.4
+ampeg_release_oncc$RELEASE=3
+amp_veltrack_oncc$VELTRACK=-100
+amp_veltrack_curvecc$VELTRACK=2
+
+//=========================
+<master>
+group=1
+off_by=2
+
+<group>
+group_label=normal
+ampeg_attack=0.001
+hicc$RANDOM=0
+#include "Data/cello_solo.txt"
+
+<group>
+group_label=random
+ampeg_attack=0.05
+offset_random=40000
+locc$RANDOM=1
+#include "Data/cello_solo.txt"
+
+//=========================
+<master>
+<group>
+group_label=legato
+trigger=legato
+group=2
+polyphony=1
+offset=10000
+offset_random=40000
+ampeg_attack=0.1
+locc$LEGATO=1
+#include "Data/cello_solo.txt"

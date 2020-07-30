@@ -1,0 +1,41 @@
+sw_lokey=0
+sw_hikey=5
+sw_default=0
+ampeg_attack=0.001
+lokey=6
+
+<region>
+sw_last=0
+sw_label=Up Slow
+sample=Up slow.$EXT
+region_label=*
+
+<region>
+sw_last=1
+sw_label=Up Fast
+sample=Up fast.$EXT
+region_label=*
+
+<region>
+sw_last=2
+sw_label=Up Faster
+sample=Up faster.$EXT
+region_label=*
+
+<region>
+sw_last=3
+sw_label=Down Slow
+sample=Down slow.$EXT
+region_label=*
+
+<region>
+sw_last=4
+sw_label=Down Fast
+sample=Down fast.$EXT
+region_label=*
+
+<region>
+sw_last=5
+sw_label=Down Faster
+sample=Down faster.$EXT
+region_label=*

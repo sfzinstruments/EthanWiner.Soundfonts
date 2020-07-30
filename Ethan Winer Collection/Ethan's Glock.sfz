@@ -1,0 +1,31 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Glockenspiel
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/glockenspiel/
+
+//****************************************************
+<global>
+global_volume=-6
+amp_veltrack=99
+offset_oncc131=6000
+offset_curvecc131=7
+#include "Data/glockenspiel.txt"
+
+//-----------------------------------
+<curve>
+curve_index=7
+v000=1
+v101=0
+v127=0

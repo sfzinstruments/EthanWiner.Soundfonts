@@ -1,0 +1,20 @@
+<region>
+region_label=1
+sample=Wind Chime 1.$EXT
+pitch_keycenter=48
+lokey=43
+hikey=54
+
+<region>
+region_label=2
+sample=Wind Chime 2.$EXT
+lokey=55
+hikey=66
+
+<region>
+region_label=3
+sample=Wind Chime 3.$EXT
+pitch_keycenter=72
+lokey=67
+hikey=78
+offset=263

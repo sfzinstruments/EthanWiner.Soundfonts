@@ -1,0 +1,14 @@
+<region>
+region_label=mp
+sample=Tube mp.$EXT
+pitch_keycenter=71
+volume=4
+tune=-9
+hivel=95
+
+<region>
+region_label=mf
+sample=Tube mf.$EXT
+pitch_keycenter=73
+tune=21
+lovel=96

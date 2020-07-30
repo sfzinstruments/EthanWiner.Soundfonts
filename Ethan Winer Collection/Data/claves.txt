@@ -1,0 +1,26 @@
+ampeg_attack=0.0005
+
+<region>
+region_label=pp
+sample=Clave pp.$EXT
+volume=14
+hivel=55
+
+<region>
+region_label=mp
+sample=Clave mp.$EXT
+volume=3
+lovel=56
+hivel=89
+
+<region>
+region_label=mf
+sample=Clave mf.$EXT
+volume=2
+lovel=90
+hivel=115
+
+<region>
+region_label=ff
+sample=Clave ff.$EXT
+lovel=116

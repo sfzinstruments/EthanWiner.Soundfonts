@@ -1,0 +1,24 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Sleigh Bells
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/sleigh_bells/
+
+//****************************************************
+<global>
+global_volume=-6
+lokey=48
+hikey=72
+pitch_keytrack=20
+#include "Data/sleigh_bells.txt"

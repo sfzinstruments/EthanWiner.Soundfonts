@@ -1,0 +1,22 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Temple Blocks
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/temple_blocks/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=5
+#include "Data/temple_blocks.txt"

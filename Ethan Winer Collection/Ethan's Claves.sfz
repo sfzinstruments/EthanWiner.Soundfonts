@@ -1,0 +1,23 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Claves
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/claves/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=2
+pitch_keytrack=20
+#include "Data/claves.txt"

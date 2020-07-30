@@ -1,0 +1,21 @@
+off_time=0.2
+
+<region>
+region_label=Hit
+sample=Tambourine Hit.$EXT
+lokey=36
+hikey=59
+transpose=12
+ampeg_release=6
+group=1
+off_by=2
+
+<region>
+region_label=Roll
+sample=Tambourine Roll.$EXT
+lokey=60
+hikey=83
+transpose=-12
+ampeg_release=0.5
+group=2
+off_by=1

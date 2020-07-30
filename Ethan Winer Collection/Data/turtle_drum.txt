@@ -1,0 +1,26 @@
+<region>
+region_label=pp
+sample=TD pp.$EXT
+volume=3
+hivel=38
+offset_random=100
+
+<region>
+region_label=p
+sample=TD p.$EXT
+lovel=39
+hivel=69
+offset_random=110
+
+<region>
+region_label=f
+sample=TD f.$EXT
+lovel=70
+hivel=101
+offset_random=90
+
+<region>
+region_label=ff
+sample=TD ff.$EXT
+lovel=102
+offset_random=110

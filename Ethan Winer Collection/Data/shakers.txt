@@ -1,0 +1,17 @@
+ampeg_attack=0.001
+
+<region> lokey=31 hikey=42 pitch_keycenter=36 region_label=Large Swish sample=Large Swish.$EXT
+
+<region> lokey=43 hikey=55 pitch_keycenter=48 region_label=Large Soft sample=Large Soft.$EXT hivel=57 volume=2
+<region> lokey=43 hikey=55 pitch_keycenter=48 region_label=Large Medium sample=Large Medium.$EXT lovel=58 hivel=85 volume=1
+<region> lokey=43 hikey=55 pitch_keycenter=48 region_label=Large Loud sample=Large Loud.$EXT lovel=86
+
+<region> lokey=56 hikey=61 pitch_keycenter=58 region_label=Small Swish1 sample=Small Swish1.$EXT pitch_keytrack=200
+
+<region> lokey=62 hikey=66 pitch_keycenter=63 region_label=Small Swish2 sample=Small Swish2.$EXT pitch_keytrack=200
+
+<region> lokey=67 hikey=79 pitch_keycenter=72 region_label=Small Soft sample=Small Soft.$EXT hivel=57 volume=2
+<region> lokey=67 hikey=79 pitch_keycenter=72 region_label=Small Medium sample=Small Medium.$EXT lovel=58 hivel=85 volume=1
+<region> lokey=67 hikey=79 pitch_keycenter=72 region_label=Small Loud sample=Small Loud.$EXT lovel=86
+
+<region> lokey=80 hikey=91 pitch_keycenter=84 region_label=Small Swish3 sample=Small Swish3.$EXT

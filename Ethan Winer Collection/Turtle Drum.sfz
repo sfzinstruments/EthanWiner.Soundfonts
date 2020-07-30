@@ -1,0 +1,23 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Turtle Drum
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/turtle_drum/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=2
+pitch_keytrack=30
+#include "Data/turtle_drum.txt"

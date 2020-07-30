@@ -1,0 +1,31 @@
+<group> group_label=mp hivel=87
+<region> lokey=34 hikey=35 pitch_keycenter=35 region_label=01 sample=Bassoon mp B0.$EXT tune=-12 cutoff=3000 volume=-2
+<region> lokey=36 hikey=38 pitch_keycenter=37 region_label=02 sample=Bassoon mp C#1.$EXT tune=-26
+<region> lokey=39 hikey=41 pitch_keycenter=40 region_label=03 sample=Bassoon mp E1.$EXT tune=-31
+<region> lokey=42 hikey=44 pitch_keycenter=43 region_label=04 sample=Bassoon mp G1.$EXT tune=-17
+<region> lokey=45 hikey=47 pitch_keycenter=46 region_label=05 sample=Bassoon mp A#1.$EXT tune=-22
+<region> lokey=48 hikey=50 pitch_keycenter=49 region_label=06 sample=Bassoon mp C#2.$EXT tune=-23
+<region> lokey=51 hikey=53 pitch_keycenter=52 region_label=07 sample=Bassoon mp E2.$EXT tune=-29
+<region> lokey=54 hikey=56 pitch_keycenter=55 region_label=08 sample=Bassoon mp G2.$EXT tune=-37
+<region> lokey=57 hikey=59 pitch_keycenter=58 region_label=09 sample=Bassoon mp A#2.$EXT tune=-23
+<region> lokey=60 hikey=62 pitch_keycenter=61 region_label=10 sample=Bassoon mp C#3.$EXT tune=-8
+<region> lokey=63 hikey=65 pitch_keycenter=64 region_label=11 sample=Bassoon mp E3.$EXT tune=-19
+<region> lokey=66 hikey=68 pitch_keycenter=67 region_label=12 sample=Bassoon mp G3.$EXT tune=-41
+<region> lokey=69 hikey=71 pitch_keycenter=70 region_label=13 sample=Bassoon mp A#3.$EXT tune=-12
+<region> lokey=72 hikey=75 pitch_keycenter=73 region_label=14 sample=Bassoon mp C#4.$EXT tune=-27
+
+<group> group_label=mf lovel=88
+<region> lokey=34 hikey=35 pitch_keycenter=35 region_label=01 sample=Bassoon mf B0.$EXT tune=-18 cutoff=3000 volume=-2
+<region> lokey=36 hikey=38 pitch_keycenter=37 region_label=02 sample=Bassoon mf C#1.$EXT tune=-38
+<region> lokey=39 hikey=41 pitch_keycenter=40 region_label=03 sample=Bassoon mf E1.$EXT tune=-34
+<region> lokey=42 hikey=44 pitch_keycenter=43 region_label=04 sample=Bassoon mf G1.$EXT tune=-15
+<region> lokey=45 hikey=47 pitch_keycenter=46 region_label=05 sample=Bassoon mf A#1.$EXT tune=-14
+<region> lokey=48 hikey=50 pitch_keycenter=49 region_label=06 sample=Bassoon mf C#2.$EXT tune=-26
+<region> lokey=51 hikey=53 pitch_keycenter=52 region_label=07 sample=Bassoon mf E2.$EXT tune=-28
+<region> lokey=54 hikey=56 pitch_keycenter=55 region_label=08 sample=Bassoon mf G2.$EXT tune=-29
+<region> lokey=57 hikey=59 pitch_keycenter=58 region_label=09 sample=Bassoon mf A#2.$EXT tune=-19
+<region> lokey=60 hikey=62 pitch_keycenter=61 region_label=10 sample=Bassoon mf C#3.$EXT tune=-2
+<region> lokey=63 hikey=65 pitch_keycenter=64 region_label=11 sample=Bassoon mf E3.$EXT tune=7
+<region> lokey=66 hikey=68 pitch_keycenter=67 region_label=12 sample=Bassoon mf G3.$EXT tune=-31
+<region> lokey=69 hikey=71 pitch_keycenter=70 region_label=13 sample=Bassoon mf A#3.$EXT tune=-7
+<region> lokey=72 hikey=75 pitch_keycenter=73 region_label=14 sample=Bassoon mf C#4.$EXT tune=-32

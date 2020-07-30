@@ -1,0 +1,55 @@
+sw_lokey=0
+sw_hikey=1
+sw_default=0
+off_time=0.2
+
+//-----------------------------------
+<group>
+sw_last=0
+sw_label=Stereo Brushes
+
+<region>
+region_label=Hit
+sample=Brush Hit.$EXT
+lokey=36
+hikey=59
+transpose=12
+ampeg_release=6
+group=1
+off_by=2
+
+<region>
+region_label=Roll
+sample=Brush Roll.$EXT
+lokey=60
+hikey=83
+transpose=-12
+ampeg_release=0.5
+group=2
+off_by=1
+
+//-----------------------------------
+<group>
+sw_last=1
+sw_label=Stereo Fat Brushes
+
+<region>
+region_label=Hit
+sample=Brush Hit Fat.$EXT
+lokey=36
+hikey=59
+transpose=12
+ampeg_release=6
+group=1
+off_by=2
+
+<region>
+region_label=Roll
+sample=Brush Roll Fat.$EXT
+lokey=60
+hikey=83
+transpose=-12
+ampeg_release=0.5
+ampeg_attack=0.001
+group=2
+off_by=1

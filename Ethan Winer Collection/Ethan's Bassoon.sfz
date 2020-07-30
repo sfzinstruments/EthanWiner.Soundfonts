@@ -1,0 +1,66 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Bassoons
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//midi cc
+#define $EXP 1
+#define $ATTACK 11
+#define $RELEASE 12
+#define $LEGATO 64
+#define $VELTRACK 99
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/bassoon/
+
+label_cc$EXP=Exp
+label_cc$ATTACK=Attack
+label_cc$RELEASE=Release
+label_cc$LEGATO=Legato
+label_cc$VELTRACK=Veltrack
+set_hdcc$EXP=1
+set_hdcc$RELEASE=0.15
+set_hdcc$VELTRACK=1
+
+//****************************************************
+<global>
+global_volume=-6
+cutoff=5000
+off_time=0.1
+off_shape=0
+sustain_sw=off
+sostenuto_sw=off
+amplitude_oncc$EXP=100
+ampeg_release_oncc$RELEASE=2
+amp_veltrack_oncc$VELTRACK=-100
+amp_veltrack_curvecc$VELTRACK=2
+
+//-----------------------------------
+
+<master>
+master_label=normal
+group=1
+off_by=2
+ampeg_attack=0.001
+ampeg_attack_oncc$ATTACK=2
+#include "Data/bassoon.txt"
+
+<master>
+master_label=legato
+trigger=legato
+group=2
+polyphony=1
+offset=5000
+offset_random=5000
+ampeg_attack=0.1
+locc$LEGATO=1
+#include "Data/bassoon.txt"

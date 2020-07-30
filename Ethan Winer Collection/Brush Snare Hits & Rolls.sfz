@@ -1,0 +1,21 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Brush Snare Hits & Rolls
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/snare_brushed/
+
+//****************************************************
+<global>
+global_volume=-6
+#include "Data/snare_brushed.txt"

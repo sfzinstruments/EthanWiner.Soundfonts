@@ -1,0 +1,22 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Wind Chimes
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/wind_chimes/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=2
+#include "Data/wind_chimes.txt"

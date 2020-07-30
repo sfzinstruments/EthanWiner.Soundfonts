@@ -1,0 +1,29 @@
+<group> group_label=1 lokey=58 hikey=58
+<region> volume=15 sample=Temple Block 1 p.$EXT region_label=p hivel=35
+<region> volume=08 sample=Temple Block 1 mp.$EXT region_label=mp lovel=36 hivel=66
+<region> volume=02 sample=Temple Block 1 mf.$EXT region_label=mf lovel=67 hivel=100
+<region> volume=00 sample=Temple Block 1 f.$EXT region_label=f lovel=101
+
+<group> group_label=2 lokey=59 hikey=59
+<region> volume=15 sample=Temple Block 2 p.$EXT region_label=p hivel=35
+<region> volume=08 sample=Temple Block 2 mp.$EXT region_label=mp lovel=36 hivel=66
+<region> volume=02 sample=Temple Block 2 mf.$EXT region_label=mf lovel=67 hivel=100
+<region> volume=00 sample=Temple Block 2 f.$EXT region_label=f lovel=101
+
+<group> group_label=3 lokey=60 hikey=60
+<region> volume=15 sample=Temple Block 3 p.$EXT region_label=p hivel=35
+<region> volume=08 sample=Temple Block 3 mp.$EXT region_label=mp lovel=36 hivel=66
+<region> volume=02 sample=Temple Block 3 mf.$EXT region_label=mf lovel=67 hivel=100
+<region> volume=00 sample=Temple Block 3 f.$EXT region_label=f lovel=101
+
+<group> group_label=4 lokey=61 hikey=61
+<region> volume=15 sample=Temple Block 4 p.$EXT region_label=p hivel=35
+<region> volume=08 sample=Temple Block 4 mp.$EXT region_label=mp lovel=36 hivel=66
+<region> volume=02 sample=Temple Block 4 mf.$EXT region_label=mf lovel=67 hivel=100
+<region> volume=00 sample=Temple Block 4 f.$EXT region_label=f lovel=101
+
+<group> group_label=5 lokey=62 hikey=62
+<region> volume=15 sample=Temple Block 5 p.$EXT region_label=p hivel=35
+<region> volume=08 sample=Temple Block 5 mp.$EXT region_label=mp lovel=36 hivel=66
+<region> volume=02 sample=Temple Block 5 mf.$EXT region_label=mf lovel=67 hivel=100
+<region> volume=00 sample=Temple Block 5 f.$EXT region_label=f lovel=101

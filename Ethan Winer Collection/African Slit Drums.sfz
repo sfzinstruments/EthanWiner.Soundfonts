@@ -1,0 +1,22 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// African Slit Drums
+// by Ethan Winer & Ed Dzubak
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/slit_drum/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=20
+#include "Data/slit_drum.txt"

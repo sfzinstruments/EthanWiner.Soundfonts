@@ -1,0 +1,18 @@
+<region> lokey=36 hikey=38 pitch_keycenter=37 region_label=01 sample=Cello C#3.$EXT tune=-5 volume=-1
+<region> lokey=39 hikey=40 pitch_keycenter=40 region_label=02 sample=Cello E3.$EXT tune=21
+<region> lokey=41 hikey=43 pitch_keycenter=43 region_label=03 sample=Cello G3.$EXT tune=-10 volume=-2
+<region> lokey=44 hikey=46 pitch_keycenter=46 region_label=04 sample=Cello A#3.$EXT tune=10
+<region> lokey=47 hikey=49 pitch_keycenter=49 region_label=05 sample=Cello C#4.$EXT
+<region> lokey=50 hikey=52 pitch_keycenter=52 region_label=06 sample=Cello E4.$EXT tune=10 volume=-1
+<region> lokey=53 hikey=55 pitch_keycenter=55 region_label=07 sample=Cello G4.$EXT tune=6 volume=-2
+<region> lokey=56 hikey=58 pitch_keycenter=58 region_label=08 sample=Cello A#4.$EXT
+<region> lokey=59 hikey=61 pitch_keycenter=61 region_label=09 sample=Cello C#5.$EXT tune=17 volume=-3
+<region> lokey=62 hikey=64 pitch_keycenter=64 region_label=10 sample=Cello E5.$EXT tune=2 volume=-1
+<region> lokey=65 hikey=67 pitch_keycenter=67 region_label=11 sample=Cello G5.$EXT volume=-1
+<region> lokey=68 hikey=70 pitch_keycenter=70 region_label=12 sample=Cello A#5.$EXT tune=7 volume=-3.5
+<region> lokey=71 hikey=73 pitch_keycenter=73 region_label=13 sample=Cello C#6.$EXT tune=-6 volume=3.5
+<region> lokey=74 hikey=76 pitch_keycenter=76 region_label=14 sample=Cello E6.$EXT tune=19 volume=1
+<region> lokey=77 hikey=79 pitch_keycenter=79 region_label=15 sample=Cello G6.$EXT tune=19 volume=-3
+<region> lokey=80 hikey=82 pitch_keycenter=82 region_label=16 sample=Cello A#6.$EXT tune=30 volume=-3
+<region> lokey=83 hikey=85 pitch_keycenter=85 region_label=17 sample=Cello C#7.$EXT tune=65 volume=-2.5
+<region> lokey=86 hikey=88 pitch_keycenter=88 region_label=18 sample=Cello E7.$EXT tune=20 volume=-0.5

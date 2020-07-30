@@ -1,0 +1,23 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Slide Whistle
+// by Ethan Winer
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//sample_file_extension
+#include "Data/xtension.txt"
+
+//////////////////////////////////////////////////////
+<control>
+default_path=Samples/slide_whistle/
+
+//****************************************************
+<global>
+global_volume=-6
+ampeg_release=0.1
+pitch_keytrack=40
+#include "Data/slide_whistle.txt"
