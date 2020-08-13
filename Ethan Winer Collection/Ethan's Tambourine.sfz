@@ -17,4 +17,5 @@ default_path=Samples/tambourine/
 
 //****************************************************
 <global>
+global_volume=-6
 #include "Data/tambourine.txt"
