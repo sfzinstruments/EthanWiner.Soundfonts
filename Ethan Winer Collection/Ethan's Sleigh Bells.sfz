@@ -15,8 +15,17 @@
 <control>
 default_path=Samples/sleigh_bells/
 
+label_cc7=Vol
+label_cc10=Pan
+set_cc7=100
+set_hdcc10=0.5
+
 //****************************************************
 <global>
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
 global_volume=-6
 lokey=48
 hikey=72
