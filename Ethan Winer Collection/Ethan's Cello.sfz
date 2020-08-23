@@ -41,6 +41,7 @@ off_shape=0
 sustain_sw=off
 sostenuto_sw=off
 amplitude_oncc$EXP=100
+amplitude_curvecc$EXP=4
 ampeg_attack_oncc$ATTACK=3
 ampeg_release_oncc$ATTACK=0.4
 ampeg_release_oncc$RELEASE=3
