@@ -40,6 +40,7 @@ off_shape=0
 sustain_sw=off
 sostenuto_sw=off
 amplitude_oncc$EXP=100
+amplitude_curvecc$EXP=4
 ampeg_release_oncc$RELEASE=2
 amp_veltrack_oncc$VELTRACK=-100
 amp_veltrack_curvecc$VELTRACK=2
