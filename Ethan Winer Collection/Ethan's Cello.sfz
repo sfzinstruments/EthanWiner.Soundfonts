@@ -23,18 +23,26 @@
 <control>
 default_path=Samples/cello_solo/
 
+label_cc7=Vol
+label_cc10=Pan
 label_cc$EXP=Exp
 label_cc$ATTACK=Attack
 label_cc$RELEASE=Release
 label_cc$RANDOM=Random
 label_cc$LEGATO=Legato
 label_cc$VELTRACK=Veltrack
+set_cc7=100
+set_hdcc10=0.5
 set_hdcc$EXP=1
 set_hdcc$RELEASE=0.15
 set_hdcc$VELTRACK=1
 
 //****************************************************
 <global>
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
 global_volume=-6
 off_time=0.2
 off_shape=0
